@@ -30,7 +30,7 @@ export default class TodoItem extends Component {
                     <button type="button" onClick={this.deleteItem}>
                         x
                     </button>
-                    <input type="checkbox" onClick={this.toggleItem} checked={completed} />
+                    <input type="checkbox" onChange={this.toggleItem} checked={completed} />
                 </div>
             </li>
         )

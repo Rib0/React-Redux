@@ -25,9 +25,10 @@ export default class TodoList extends Component {
 
     addItem = e => {
         const { addItem } = this.props;
-        if (e.keyCode !== 13) return;
+        if (e.keyCode !== 13 || e.target.value === '') return;
 
         addItem(e.target.value);
+        e.target.value = '';
     }
     
     render () {
