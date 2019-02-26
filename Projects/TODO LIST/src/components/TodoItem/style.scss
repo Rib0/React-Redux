@@ -1,0 +1,22 @@
+.todoItem {
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.todoItem button {
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+}

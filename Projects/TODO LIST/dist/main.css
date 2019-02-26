@@ -1,0 +1,44 @@
+
+.style-todoItem___2RiVc {
+  border: 1px solid black;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.style-actions___1dFLY {
+  display: flex;
+  align-items: center; }
+
+.style-completed___4y_p3 {
+  text-decoration: line-through; }
+
+.style-container___1seyb {
+  margin: 100px auto;
+  width: 300px; }
+
+.style-container___1seyb input[type="checkbox"] {
+  width: 23px;
+  height: 23px;
+  cursor: pointer; }
+
+.style-enterField___3ODyI {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box; }
+
+.style-list___1WDsS {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.style-filters___2CDgW {
+  padding-bottom: 10px; }
+
+.style-label___GRpVu {
+  display: flex;
+  align-items: center; }
+
+
+/*# sourceMappingURL=main.css.map*/
