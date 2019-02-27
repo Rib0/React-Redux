@@ -12,6 +12,10 @@
     cursor: pointer;
 }
 
+.todoText {
+    word-break: break-all;
+}
+
 .actions {
     display: flex;
     align-items: center;

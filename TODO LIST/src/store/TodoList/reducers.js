@@ -23,12 +23,12 @@ export const todoItemReducer = (state = [], action) => {
             });
         case ADD_TODO_ITEM:
             return [
-                ...state,
                 {
                     text: action.payload.text,
                     completed: false,
-                    id: state.length ? state[state.length - 1].id + 1 : 0,
-                }
+                    id: state.length ? state[0].id + 1 : 0,
+                },
+                ...state
             ]
         case DELETE_ITEM:
             return state.filter(item => item.id !== action.payload);

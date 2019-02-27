@@ -20,6 +20,7 @@ export default class TodoItem extends Component {
         const { text, completed } = this.props;
 
         const textStyle = cx({
+            todoText: true,
             completed,
         })
 
